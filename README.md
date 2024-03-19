@@ -16,7 +16,7 @@ In order to analize this dataset we have different approximations, the one we wi
 
 3. Modeling: Apply time series modeling techniques, simple exponential smoothing and Holt Winters, we make a grid search to find the best period for the dataset.
 
-4. Evaluation: Evaluate the performance of the time series models using such as mean squared error.
+4. Evaluation: Evaluate the performance of the time series models using mean squared error.
 
 ## Conclusion 
 Using Holt Winters Exponential Smoothing we were capable of find the best seasonality for our dataset, and describe future sales in a test set.
