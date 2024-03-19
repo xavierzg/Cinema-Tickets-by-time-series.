@@ -21,3 +21,5 @@ In order to analize this dataset we have different approximations, the one we wi
 ## Conclusion 
 Using Holt Winters Exponential Smoothing we were capable of find the best seasonality for our dataset, and describe future sales in a test set.
 
+
+
