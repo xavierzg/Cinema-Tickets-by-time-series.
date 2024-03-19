@@ -2,9 +2,9 @@
 ## Introduction
 In this project we want to analyze the total sales of multiple cinemas using time series (Holt Winter). We also pretend to obtain relevant information like trend, seasonality, more important days.
 ## Objectives
-Get the days that are more and less sales
-Describe the seasonality of the dataset
-Train the Holt Winters algorithm and make a prediction in a test set
+Get the days that are more and less sales \\
+Describe the seasonality of the dataset \\
+Train the Holt Winters algorithm and make a prediction in a test set \\
 ## Data Source
 It is a datase from Kaggle #https://www.kaggle.com/datasets/arashnic/cinema-ticket
 ## Methodology
