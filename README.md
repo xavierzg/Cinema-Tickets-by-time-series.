@@ -1,24 +1,28 @@
 # Cinema Sales Analysis by Time Series
 ## Introduction
-In this project we want to analyze the total sales of multiple cinemas using time series. We also pretend to obtain relevant information like trend, seasonality, more important days.
-## Objectives
-Describe the seasonality of the dataset. <br>
-Train multiple algorithms and get the best solution
+In this project we want to analyze the total sales of multiple cinemas using multiple algorithms and determine which one is the best in this case.
+## Goals
+Clean the dataset to be compatible with the algorithms <br>
+Describe the algorithms performance based on corresponding error parameters and computation time.
 ## Data Source
-It is a datase from Kaggle #https://www.kaggle.com/datasets/arashnic/cinema-ticket
-## Methodology
-In order to analize this dataset we have different approximations, the one we will use is to take the total sales of all the cinemas per day.
+It is a dataset from Kaggle #https://www.kaggle.com/datasets/arashnic/cinema-ticket
+## This project's repo includes the following files:
+The procces to clean the dataset and some descriptive algorithms (1_Series.ipynb) <br>
+Implementation of multiple algorithms (2_ARIMA.ipynb, 3_VARIMA.ipynb, 4_ML_Algorithms.ipynb) <br>
+The original data (cinemaTicket_Ref.csv) <br>
+The clean data (clean_data.csv)
+## This project includes the following steps:
+1. Decision of how to approach to the dataset. <br>
+2. Analysis of important dates, days, stationality and outliers. <br>
+3. Analysis with some algorithms. <br>
+4. Use of distinct error measurement. <br>
+5. Implementation of algorithms (Holt Winters, ARIMA, VARIMA, Linear Regression).
 
-1. Data Preprocessing: Make a short clean of the data and create a dataset from the one we are using.
-
-2. Exploratory Data Analysis (EDA): Explore the sales data visually to identify patterns, trends, and seasonal variations. This may involve plotting time series graphs, calculating summary statistics, and performing decomposition analysis.
-
-3. Modeling: Apply time series modeling techniques, simple exponential smoothing, Holt Winters and ARIMA, we make a grid search to find the best period for the dataset for Holt Winters and also to obtain the best pdq for ARIMA.
-
-4. Evaluation: Evaluate the performance of the time series models using mean squared error.
-
-## Conclusion 
-Using Holt Winters Exponential Smoothing we were capable of find the best seasonality for our dataset, and describe future sales in a test set, we also can't find good hiperparameters to ARIMA.
-
+## Conclusion
+Holt Winters: $R^2 = -0.0483$, Time = 2.3s. <br>
+ARIMA: t statistic = 0.210, p-value = 1.434e-08, Time = 18 min. <br>
+VARIMA: $R^2_1 = -0.623, R^2_2 = = -0.407$, Time = 9 hours. <br>
+Linear Regression (1-step): $R^2 = 0.595$, Time = 0.3s
+Linear Regression (multi output): $R^2 = 0.432$, Time = 1.8s
 
 
