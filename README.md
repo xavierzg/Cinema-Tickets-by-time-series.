@@ -22,7 +22,7 @@ The clean data (clean_data.csv)
 Holt Winters: $R^2 = -0.0483$, Time = 2.3s. <br>
 ARIMA: t statistic = 0.210, p-value = 1.434e-08, Time = 18 min. <br>
 VARIMA: $R^2_1 = -0.623, R^2_2 = = -0.407$, Time = 9 hours. <br>
-Linear Regression (1-step): $R^2 = 0.595$, Time = 0.3s
+Linear Regression (1-step): $R^2 = 0.595$, Time = 0.3s <br>
 Linear Regression (multi output): $R^2 = 0.432$, Time = 1.8s
 
 
